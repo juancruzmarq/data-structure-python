@@ -32,6 +32,9 @@
 # Arbol AVL: Un arbol AVL es un arbol binario de busqueda balanceado. Un arbol AVL esta balanceado si la diferencia de altura entre los subarboles izquierdo y derecho de cada nodo es menor o igual a 1.
 # B-Tree: Un B-Tree es un arbol donde cada nodo tiene cero o mas hijos, y cada nodo tiene un valor. Los valores de los nodos hijos izquierdos son menores que el valor del nodo padre, y los valores de los nodos hijos derechos son mayores que el valor del nodo padre. Los nodos hoja estan en el mismo nivel.
 
+from enum import Enum, auto
+
+
 class Node():
     def __init__(self, value):
         self.right = None
